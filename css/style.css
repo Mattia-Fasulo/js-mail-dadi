@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Source Code Pro", monospace;
+    color: white;
+  }
+
+  .my-wrapper{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .my-div {
+    background-color: mediumpurple;
+    box-shadow: 2px 2px 10px gray;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+  }
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  button a:hover {
+    color: white;
+  }
+
+  .buttons h2.text-center {
+    background-color: black;
+    border-radius: 20px;
+  }
+
+  input[type="email"] {
+    width: 300px;
+    height: 30px;
+  }
